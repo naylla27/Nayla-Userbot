@@ -57,7 +57,7 @@ async def _(ping):
     await ping.edit(
         f"私 **ᴘɪɴɢ :** `%sms`\n"
         f"さ **ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
-        f"ふ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"ふ **ᴏᴡɴᴇʀ :** @mYual" % (duration)
     )
 
 
