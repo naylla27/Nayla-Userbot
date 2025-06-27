@@ -85,13 +85,13 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/naylla27/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
-            7524028962,
+            5380532632,
             2014998038,
             1331659203,
             1700405732,
@@ -174,8 +174,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "marvellcs")
-CHANNEL = os.environ.get("CHANNEL", "jasebmarvell")
+GROUP = os.environ.get("GROUP", "jasebnayla")
+CHANNEL = os.environ.get("CHANNEL", "mwonsy")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -189,7 +189,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/marvel886/Marvell-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/naylla27/Nayla-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -222,7 +222,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
@@ -251,17 +251,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
+              or "https://graph.org/file/84b5927d52cd79e8affee-b287e20624a524c87b.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
+              or "https://graph.org/file/84b5927d52cd79e8affee-b287e20624a524c87b.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg")
+             or "https://graph.org/file/84b5927d52cd79e8affee-b287e20624a524c87b.jpg")
 
 DEFAULT = list(map(int, b64decode("NzUyNDAyODk2Mg==").split()))
 
@@ -301,7 +301,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/naylla27/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -313,12 +313,12 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGphc2VibWFydmVsbA=="))[2:15]
-gc = str(b64decode("QG1hcnZlbGxjcw=="))[2:17]
+ch = str(b64decode("QGphc2VibmF5bGE="))[2:15]
+gc = str(b64decode("QG13b25zeQ=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/marvel886/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/naylla27/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -365,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗠𝗮𝗿𝘃𝗲𝗹𝗹-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -462,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
-                    "https://graph.org/file/e440505e4a8d6a41fb1c6-9fe6780cac5039ecbc.jpg",
+                    "https://graph.org/file/84b5927d52cd79e8affee-b287e20624a524c87b.jpg",
+                    "https://graph.org/file/84b5927d52cd79e8affee-b287e20624a524c87b.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -574,7 +574,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
+                    f"**𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -607,7 +607,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -721,22 +721,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
-                    url="https://t.me/Axliya",
+                    description="𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    url="https://t.me/mYual",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    text=f"𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/marvellcs"),
+                                "https://t.me/jasebnayla"),
                             custom.Button.url(
                                 "Channel",
-                                "https://t.me/jasebmarvell"),
+                                "https://t.me/mwonsy"),
                         ],
                     ],
                     link_preview=False,
@@ -785,7 +785,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1095,4 +1095,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @Axliya atau ke @marvellcs. 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @mYual 𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
