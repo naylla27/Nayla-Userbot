@@ -403,7 +403,7 @@ async def pmdevs(event):
                 yins_sql.approve(devs.id)
                 await bot.send_message(BOTLOG_CHATID, f"**#AUTO_APPROVED_DEVELOPER**\n\n👑 **Developer:** [{devs.first_name}](tg://user?id={devs.id})\n💬 `Developer Marvell-Userbot Telah Mengirimi Anda Pesan...`")
                 await bot.send_message(
-                    devs, f"**Menerima Pesan!!!**\n**Terdeteksi [{devs.first_name}](tg://user?id={devs.id}) Adalah Developer 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**"
+                    devs, f"**Menerima Pesan!!!**\n**Terdeteksi [{devs.first_name}](tg://user?id={devs.id}) Adalah Developer 𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**"
                 )
             except BaseException as e:
                 return await eor(event, get_string("error_1").format(e))
