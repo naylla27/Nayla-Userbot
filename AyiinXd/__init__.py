@@ -334,7 +334,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Marvell-Userbot"
+    session = "Nayla-Userbot"
 try:
     bot = TelegramClient(
         session=session,
