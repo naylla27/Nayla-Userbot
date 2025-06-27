@@ -22,13 +22,13 @@ CMD_HELP.update(
     {
         "helper": f"**Plugin : **`helper`\
         \n\n  »  **Perintah :** `{cmd}ihelp`\
-        \n  »  **Kegunaan : **Bantuan Untuk 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
+        \n  »  **Kegunaan : **Bantuan Untuk 𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
         \n\n  »  **Perintah :** `{cmd}listvar`\
         \n  »  **Kegunaan : **Melihat Daftar Vars.\
         \n\n  »  **Perintah :** `{cmd}repo`\
-        \n  »  **Kegunaan : **Melihat Repository 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
+        \n  »  **Kegunaan : **Melihat Repository 𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
         \n\n  »  **Perintah :** `{cmd}string`\
-        \n  »  **Kegunaan : **Link untuk mengambil String 𝗠𝗮𝗿𝘃𝗲𝗹𝗹-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
+        \n  »  **Kegunaan : **Link untuk mengambil String 𝗡𝗮𝘆𝗹𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
     "
     }
 )
